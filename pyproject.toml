@@ -5,7 +5,13 @@ description = "Add your description here"
 authors = [
     { name = "NorthSeaPark", email = "hou.308@osu.edu" }
 ]
-dependencies = []
+dependencies = [
+    "pandas>=2.2.2",
+    "yfinance>=0.2.40",
+    "gym>=0.26.2",
+    "tensorflow>=2.16.2",
+    "ta-lib>=0.4.32",
+]
 readme = "README.md"
 requires-python = ">= 3.10"
 
